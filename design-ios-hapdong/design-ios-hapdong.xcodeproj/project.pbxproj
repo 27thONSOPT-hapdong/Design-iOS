@@ -56,15 +56,71 @@
 		562F682D255F8D1B00C50C97 /* design-ios-hapdong */ = {
 			isa = PBXGroup;
 			children = (
-				562F682E255F8D1B00C50C97 /* AppDelegate.swift */,
-				562F6830255F8D1B00C50C97 /* SceneDelegate.swift */,
-				562F6832255F8D1B00C50C97 /* ViewController.swift */,
-				562F6834255F8D1B00C50C97 /* Main.storyboard */,
-				562F6837255F8D1E00C50C97 /* Assets.xcassets */,
-				562F6839255F8D1E00C50C97 /* LaunchScreen.storyboard */,
-				562F683C255F8D1E00C50C97 /* Info.plist */,
+				562F6844255F914100C50C97 /* Resource */,
+				562F6845255F914500C50C97 /* Sources */,
 			);
 			path = "design-ios-hapdong";
+			sourceTree = "<group>";
+		};
+		562F6844255F914100C50C97 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				562F6846255F915300C50C97 /* Storyboard */,
+				562F683C255F8D1E00C50C97 /* Info.plist */,
+				562F6837255F8D1E00C50C97 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		562F6845255F914500C50C97 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				562F682E255F8D1B00C50C97 /* AppDelegate.swift */,
+				562F6830255F8D1B00C50C97 /* SceneDelegate.swift */,
+				562F684A255F917200C50C97 /* Models */,
+				562F6849255F916C00C50C97 /* ViewControllers */,
+				562F6848255F916900C50C97 /* Views */,
+				562F6847255F916500C50C97 /* Cells */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		562F6846255F915300C50C97 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				562F6839255F8D1E00C50C97 /* LaunchScreen.storyboard */,
+				562F6834255F8D1B00C50C97 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		562F6847255F916500C50C97 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		562F6848255F916900C50C97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		562F6849255F916C00C50C97 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				562F6832255F8D1B00C50C97 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		562F684A255F917200C50C97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
