@@ -13,6 +13,8 @@
 		562F6836255F8D1B00C50C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562F6834255F8D1B00C50C97 /* Main.storyboard */; };
 		562F6838255F8D1E00C50C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562F6837255F8D1E00C50C97 /* Assets.xcassets */; };
 		562F683B255F8D1E00C50C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562F6839255F8D1E00C50C97 /* LaunchScreen.storyboard */; };
+		562F684D255F94DD00C50C97 /* MindMapSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562F684C255F94DD00C50C97 /* MindMapSB.storyboard */; };
+		562F6851255F982100C50C97 /* MindMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F6850255F982100C50C97 /* MindMapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		562F6837255F8D1E00C50C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		562F683A255F8D1E00C50C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		562F683C255F8D1E00C50C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562F684C255F94DD00C50C97 /* MindMapSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MindMapSB.storyboard; sourceTree = "<group>"; };
+		562F6850255F982100C50C97 /* MindMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindMapVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 			children = (
 				562F6839255F8D1E00C50C97 /* LaunchScreen.storyboard */,
 				562F6834255F8D1B00C50C97 /* Main.storyboard */,
+				562F684C255F94DD00C50C97 /* MindMapSB.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				562F6832255F8D1B00C50C97 /* ViewController.swift */,
+				562F6850255F982100C50C97 /* MindMapVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -182,6 +188,7 @@
 			files = (
 				562F683B255F8D1E00C50C97 /* LaunchScreen.storyboard in Resources */,
 				562F6838255F8D1E00C50C97 /* Assets.xcassets in Resources */,
+				562F684D255F94DD00C50C97 /* MindMapSB.storyboard in Resources */,
 				562F6836255F8D1B00C50C97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				562F6833255F8D1B00C50C97 /* ViewController.swift in Sources */,
+				562F6851255F982100C50C97 /* MindMapVC.swift in Sources */,
 				562F682F255F8D1B00C50C97 /* AppDelegate.swift in Sources */,
 				562F6831255F8D1B00C50C97 /* SceneDelegate.swift in Sources */,
 			);
@@ -344,7 +352,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EQ7Z68Z2F2;
-				INFOPLIST_FILE = "design-ios-hapdong/Info.plist";
+				INFOPLIST_FILE = "design-ios-hapdong/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,7 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EQ7Z68Z2F2;
-				INFOPLIST_FILE = "design-ios-hapdong/Info.plist";
+				INFOPLIST_FILE = "design-ios-hapdong/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

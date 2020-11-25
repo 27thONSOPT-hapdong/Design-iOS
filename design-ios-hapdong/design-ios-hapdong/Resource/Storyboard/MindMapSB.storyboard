@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vVz-QY-nM0">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Mind MapVC-->
+        <scene sceneID="Xqn-oL-SnQ">
+            <objects>
+                <viewController storyboardIdentifier="MindMapVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vVz-QY-nM0" customClass="MindMapVC" customModule="design_ios_hapdong" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hNd-aO-dr2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3pg-pP-DED">
+                                <rect key="frame" x="52.5" y="89.5" width="133.5" height="31.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOPT 솝커톤 아이디에이션" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNo-jm-ZqA">
+                                        <rect key="frame" x="0.0" y="0.0" width="133.5" height="14.5"/>
+                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <color key="textColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020년 11월 21일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJK-vr-qLn">
+                                        <rect key="frame" x="0.0" y="19.5" width="81" height="12"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                        <color key="textColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1P-8O-XRn">
+                                <rect key="frame" x="23" y="94" width="12.5" height="22"/>
+                                <color key="tintColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <state key="normal" image="chevron.left" catalog="system"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3RdMindmapRoundLineIos" translatesAutoresizingMaskIntoConstraints="NO" id="NJh-JL-qVV">
+                                <rect key="frame" x="0.0" y="173" width="414" height="452.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="NJh-JL-qVV" secondAttribute="height" multiplier="75:82" id="r4Q-2n-m7R"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7vn-bz-7wa"/>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="3pg-pP-DED" firstAttribute="centerY" secondItem="a1P-8O-XRn" secondAttribute="centerY" id="JEu-Dx-Pod"/>
+                            <constraint firstItem="7vn-bz-7wa" firstAttribute="trailing" secondItem="NJh-JL-qVV" secondAttribute="trailing" id="WEF-nD-z4w"/>
+                            <constraint firstItem="NJh-JL-qVV" firstAttribute="leading" secondItem="hNd-aO-dr2" secondAttribute="leading" id="YzO-7M-aid"/>
+                            <constraint firstItem="a1P-8O-XRn" firstAttribute="leading" secondItem="hNd-aO-dr2" secondAttribute="leading" constant="23" id="flG-B5-VBl"/>
+                            <constraint firstItem="3pg-pP-DED" firstAttribute="leading" secondItem="a1P-8O-XRn" secondAttribute="trailing" constant="17" id="iIl-Hz-4Da"/>
+                            <constraint firstItem="a1P-8O-XRn" firstAttribute="top" secondItem="hNd-aO-dr2" secondAttribute="top" constant="94" id="iQ7-WJ-5g7"/>
+                            <constraint firstItem="NJh-JL-qVV" firstAttribute="top" secondItem="3pg-pP-DED" secondAttribute="bottom" constant="52" id="iaq-km-0lO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="circleImageView" destination="NJh-JL-qVV" id="Zej-It-07a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hiJ-fN-9w8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1157.9710144927537" y="-11.383928571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="3RdMindmapRoundLineIos" width="375" height="410"/>
+        <image name="chevron.left" catalog="system" width="96" height="128"/>
+    </resources>
+</document>
