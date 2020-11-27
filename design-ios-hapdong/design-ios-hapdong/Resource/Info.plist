@@ -34,7 +34,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>MindMapSB</string>
+					<string>PreViewSB</string>
 				</dict>
 			</array>
 		</dict>

@@ -17,6 +17,8 @@
 		562F6836255F8D1B00C50C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562F6834255F8D1B00C50C97 /* Main.storyboard */; };
 		562F6838255F8D1E00C50C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562F6837255F8D1E00C50C97 /* Assets.xcassets */; };
 		562F683B255F8D1E00C50C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562F6839255F8D1E00C50C97 /* LaunchScreen.storyboard */; };
+		ED3CBDCF255F94C9003572C6 /* PreViewSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3CBDCE255F94C9003572C6 /* PreViewSB.storyboard */; };
+		ED3CBDD3255FA2FC003572C6 /* PreViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CBDD2255FA2FB003572C6 /* PreViewVC.swift */; };
 		562F684D255F94DD00C50C97 /* MindMapSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562F684C255F94DD00C50C97 /* MindMapSB.storyboard */; };
 		562F6851255F982100C50C97 /* MindMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F6850255F982100C50C97 /* MindMapVC.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +36,8 @@
 		562F6837255F8D1E00C50C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		562F683A255F8D1E00C50C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		562F683C255F8D1E00C50C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3CBDCE255F94C9003572C6 /* PreViewSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PreViewSB.storyboard; sourceTree = "<group>"; };
+		ED3CBDD2255FA2FB003572C6 /* PreViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreViewVC.swift; sourceTree = "<group>"; };
 		562F684C255F94DD00C50C97 /* MindMapSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MindMapSB.storyboard; sourceTree = "<group>"; };
 		562F6850255F982100C50C97 /* MindMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindMapVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +106,7 @@
 			children = (
 				562F6839255F8D1E00C50C97 /* LaunchScreen.storyboard */,
 				562F6834255F8D1B00C50C97 /* Main.storyboard */,
+				ED3CBDCE255F94C9003572C6 /* PreViewSB.storyboard */,
 				562F684C255F94DD00C50C97 /* MindMapSB.storyboard */,
 				100F543F255F947500E8919A /* ListPageSB.storyboard */,
 			);
@@ -127,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				562F6832255F8D1B00C50C97 /* ViewController.swift */,
+				ED3CBDD2255FA2FB003572C6 /* PreViewVC.swift */,
 				562F6850255F982100C50C97 /* MindMapVC.swift */,
 				100F5445255F9A9300E8919A /* ListPageVC.swift */,
 				100F544B255F9CC000E8919A /* ListPageTableVC.swift */,
@@ -200,6 +206,7 @@
 			files = (
 				562F683B255F8D1E00C50C97 /* LaunchScreen.storyboard in Resources */,
 				562F6838255F8D1E00C50C97 /* Assets.xcassets in Resources */,
+				ED3CBDCF255F94C9003572C6 /* PreViewSB.storyboard in Resources */,
 				562F684D255F94DD00C50C97 /* MindMapSB.storyboard in Resources */,
 				562F6836255F8D1B00C50C97 /* Main.storyboard in Resources */,
 				100F5440255F947500E8919A /* ListPageSB.storyboard in Resources */,
@@ -214,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				562F6833255F8D1B00C50C97 /* ViewController.swift in Sources */,
+				ED3CBDD3255FA2FC003572C6 /* PreViewVC.swift in Sources */,
 				562F6851255F982100C50C97 /* MindMapVC.swift in Sources */,
 				100F5446255F9A9300E8919A /* ListPageVC.swift in Sources */,
 				100F544C255F9CC000E8919A /* ListPageTableVC.swift in Sources */,
